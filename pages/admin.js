@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { supabase } from "../lib/supabase";
+import { supabase } from '../lib/supabase.js';
 
 export default function Admin(){
   const [orders,setOrders] = useState([]);
